@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow: hidden;
+    cursor:none;
+}
+
+.mainCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+#tooltip {
+    position: fixed;
+    padding: 10px;
+    font-family: Monospace, Andale Mono, monospace;
+    font-weight: bold;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+#tooltip2 {
+    position: fixed;
+    padding: 10px;
+    font-family: Monospace, Andale Mono, monospace;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+
+#portfolioLink {
+    margin: 20px;
+    position: fixed;
+    font-family: Monospace, Andale Mono, monospace;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#cursor {
+    position: fixed;
+}
+
+/*# sourceMappingURL=main.css.map*/
